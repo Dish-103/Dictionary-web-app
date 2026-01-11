@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Translator Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+             <h1 class="gradient-text">🧠 Smart Translator</h1>
+
+            <div class="mode-toggle">
+                <button class="mode-btn active" data-mode="Type word">Word</button>
+                
+            </div>
+        </header>
+
+        <!-- Word Dictionary Mode -->
+        <div class="mode-panel active" id="wordMode">
+            <div class="input-group">
+                <input type="text" id="wordInput" placeholder="Enter English word...">
+                <button id="wordSearch">🔍 Search</button>
+            </div>
+            <div id="wordResult"></div>
+        </div>
+
+        
+    <script src="script.js"></script>
+</body>
+</html>

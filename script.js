@@ -5,11 +5,6 @@ const wordInput = document.getElementById('wordInput');
 const wordSearch = document.getElementById('wordSearch');
 const wordResult = document.getElementById('wordResult');
 
-// const translateBtn = document.getElementById('translateBtn');
-// const translateResult = document.getElementById('translateResult');
-// const sourceLang = document.getElementById('sourceLang');
-// const targetLang = document.getElementById('targetLang');
-
 // API URLs
 const DICT_API = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
@@ -110,3 +105,4 @@ document.querySelector('[data-mode="translate"]').addEventListener('click', () =
     wordInput.value = '';
     wordResult.innerHTML = '';
 });
+
